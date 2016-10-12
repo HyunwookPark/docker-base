@@ -1,4 +1,4 @@
 FROM centos7-base:last
 
-RUN yum install epel-release
-RUN yum install nodejs npm --enablerepo=epel
+RUN yum install epel-release -y
+RUN yum install nodejs npm --enablerepo=epel -y
